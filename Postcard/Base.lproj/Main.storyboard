@@ -69,7 +69,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="203" width="335" height="30"/>
+                                    <rect key="frame" x="16" y="264" width="335" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7mx-8C-sMW">
@@ -77,7 +77,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="256" width="335" height="30"/>
+                                    <rect key="frame" x="16" y="317" width="335" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XH-Ze-XEm">
@@ -88,7 +88,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="305" width="335" height="30"/>
+                                    <rect key="frame" x="16" y="366" width="335" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wuA-PU-MHq"/>
@@ -100,7 +100,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="158" width="133" height="37"/>
+                                    <rect key="frame" x="16" y="158" width="335" height="65"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIZ-F8-xuC">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="171" y="231" width="180" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -112,6 +121,7 @@
                                 <exclude reference="7mx-8C-sMW"/>
                                 <exclude reference="5XH-Ze-XEm"/>
                                 <exclude reference="Vhi-n4-Hdp"/>
+                                <exclude reference="vIZ-F8-xuC"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="7mx-8C-sMW"/>
                                 <include reference="5XH-Ze-XEm"/>
                                 <include reference="Vhi-n4-Hdp"/>
+                                <include reference="vIZ-F8-xuC"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="gLg-We-sCS" id="Ujn-Kx-8qP"/>
                         <outlet property="mailButton" destination="5XH-Ze-XEm" id="Ngd-0e-zGL"/>
                         <outlet property="messageLabel" destination="Vhi-n4-Hdp" id="4Ql-3D-M0a"/>
+                        <outlet property="messageLabelEnterName" destination="vIZ-F8-xuC" id="Zc1-MO-mXJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
