@@ -13,6 +13,9 @@
 		42486BB21B0A4FFE006A609F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42486BB11B0A4FFE006A609F /* Images.xcassets */; };
 		42486BB51B0A4FFE006A609F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42486BB31B0A4FFE006A609F /* LaunchScreen.xib */; };
 		42486BC11B0A4FFE006A609F /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42486BC01B0A4FFE006A609F /* PostcardTests.swift */; };
+		429F0BC51B0A5FCF00251E9A /* Bob+Dylan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 429F0BC41B0A5FCF00251E9A /* Bob+Dylan.jpg */; };
+		429F0BC71B0A63CC00251E9A /* TDline1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 429F0BC61B0A63CC00251E9A /* TDline1.PNG */; };
+		429F0BC91B0B2F4F00251E9A /* Culturalbility文化力_logo牌子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 429F0BC81B0B2F4F00251E9A /* Culturalbility文化力_logo牌子.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		42486BBA1B0A4FFE006A609F /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42486BBF1B0A4FFE006A609F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42486BC01B0A4FFE006A609F /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		429F0BC41B0A5FCF00251E9A /* Bob+Dylan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bob+Dylan.jpg"; sourceTree = "<group>"; };
+		429F0BC61B0A63CC00251E9A /* TDline1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TDline1.PNG; sourceTree = "<group>"; };
+		429F0BC81B0B2F4F00251E9A /* Culturalbility文化力_logo牌子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Culturalbility文化力_logo牌子.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		42486BA81B0A4FFE006A609F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				429F0BC81B0B2F4F00251E9A /* Culturalbility文化力_logo牌子.jpg */,
+				429F0BC61B0A63CC00251E9A /* TDline1.PNG */,
+				429F0BC41B0A5FCF00251E9A /* Bob+Dylan.jpg */,
 				42486BA91B0A4FFE006A609F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +203,9 @@
 			files = (
 				42486BB01B0A4FFE006A609F /* Main.storyboard in Resources */,
 				42486BB51B0A4FFE006A609F /* LaunchScreen.xib in Resources */,
+				429F0BC71B0A63CC00251E9A /* TDline1.PNG in Resources */,
+				429F0BC51B0A5FCF00251E9A /* Bob+Dylan.jpg in Resources */,
+				429F0BC91B0B2F4F00251E9A /* Culturalbility文化力_logo牌子.jpg in Resources */,
 				42486BB21B0A4FFE006A609F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +419,7 @@
 				42486BC61B0A4FFE006A609F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42486BC71B0A4FFE006A609F /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				42486BC91B0A4FFE006A609F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
